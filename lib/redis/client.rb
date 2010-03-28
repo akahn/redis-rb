@@ -115,7 +115,15 @@ module RedisRb
       "zset_delete"          => "zrem",
       "zset_score"           => "zscore",
       "zset_incr_by"         => "zincrby",
-      "zset_increment_by"    => "zincrby"
+      "zset_increment_by"    => "zincrby",
+      "hash_set"             => "hset",
+      "hash_get"             => "hget",
+      "hash_delete"          => "hdel",
+      "hash_length"          => "hlen",
+      "hash_keys"            => "hkeys",
+      "hash_values"          => "hvals",
+      "hash_key?"            => "hkeyexists",
+      "hash_get_all"         => "hgetall"
     }
 
     DISABLED_COMMANDS = {
